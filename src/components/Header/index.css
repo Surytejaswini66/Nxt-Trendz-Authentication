@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.header-container {
+    background-color: #1e293b;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.website-logo {
+    width: 150px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
